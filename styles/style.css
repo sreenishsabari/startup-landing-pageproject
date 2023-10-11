@@ -20,9 +20,10 @@ body {
 .header {
   width: 100%;
   height: 100vh;
-  background: url("./image/banner-bg-d1d19f3af4e862ba3ee37c04e4b353c8.jpg")
+  background: url("../image/banner-bg-d1d19f3af4e862ba3ee37c04e4b353c8.jpg")
     no-repeat;
-  background-size: 100%;
+  /* background-image no-repeat;s */
+  /* background-size: 100%;  */
   padding: 0rem 9rem;
 }
 
@@ -485,7 +486,6 @@ body {
   padding: 3rem 9rem;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
 }
 
 .customer-img-box {
